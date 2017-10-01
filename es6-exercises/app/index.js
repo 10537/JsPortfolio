@@ -50,3 +50,33 @@ console.log(total_score);
 import multiply from './calculator'
 //console.log(add(5, 4))
 console.log(multiply(6, 6));
+
+//Using Class and Inheritance.
+class EntityA {
+  constructor(name, height){
+    this.name = name;
+    this.height = height;
+  }
+
+  greet() {
+    console.log(`Hi! I'm ${this.name} from middle earth!`);
+  }
+}
+
+let Merry = new EntityA("Merry", 4.6);
+Merry.greet();
+
+// Imported from other filter
+import Entity from './classes'
+
+class Hobbit extends Entity {
+  constructor(name, height){
+    super(name, height);
+  }
+  greet(){
+    console.log(`Hello!, I'm ${this.name} from the Shire`);
+  }
+}
+
+let Frodo = new Hobbit("Frodo Baggins", 4.5);
+Frodo.greet();
