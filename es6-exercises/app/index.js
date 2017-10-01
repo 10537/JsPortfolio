@@ -38,3 +38,9 @@ console.log(passing);
 
 let passing = score.filter(element => element >= 70)
 console.log(passing);
+
+// Using export variables
+import { students, total_score} from './student'
+
+console.log(students);
+console.log(total_score);
