@@ -44,3 +44,9 @@ import { students, total_score} from './student'
 
 console.log(students);
 console.log(total_score);
+
+// Importing Add and Multiply Export function
+//import { add, multiply} from './calculator.js';
+import multiply from './calculator'
+//console.log(add(5, 4))
+console.log(multiply(6, 6));
