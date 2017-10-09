@@ -11,6 +11,47 @@
         </div>
       </div>
     </section>
+    <section class="section">
+      <div class="container">
+        <div class="columns pd is-desktop">
+          <div class="column is-1 has-text-centered">
+            <i class="fa fa-cog is-primary"></i>
+          </div>
+          <div class="column is-one-third-desktop has-text-centered">
+            <p class="title"><strong>Lorem ipsum dolor sit amet.</strong></p>
+          </div>
+          <div class="column">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in diam venenatis massa laoreet iaculis. Nunc a venenatis libero. Mauris vestibulum diam commodo, aliquet nibh eget, ullamcorper nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Maecenas eu turpis sit amet lacus ultricies consectetur. Class aptent.</p>
+          </div>
+        </div>
+      </div>
+      <div class="columns pd">
+        <div class="column">
+          <div class="card">
+            <div class="card-content">
+              <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis malesuada mauris.</p>
+              <p class="subtitle">José Moreno</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-content">
+              <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis malesuada mauris.</p>
+              <p class="subtitle">José Moreno</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-content">
+              <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis malesuada mauris.</p>
+              <p class="subtitle">José Moreno</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -45,4 +86,15 @@ export default {
 
 h2
   margin: 1.5rem 0 2rem 0 !important
+
+.fa-cog
+  font-size: 40px
+
+#learn
+  +desktop
+    margin-button: 2rem
+
+.pd
+  +tablet
+    padding: 2em 0
 </style>
